@@ -28,7 +28,7 @@ public class Main {
         String stroke = scanner.nextLine();
 
         stroke = stroke.toLowerCase();
-        stroke = stroke.replaceAll("[,./';:#&*--_+= ]", "");
+        stroke = stroke.replaceAll("[,./';:#&*--_+ ]", "");
 
         for (int i = 0; i < (stroke.length() / 2); i++) {
             // Сравниваем символы попарно
